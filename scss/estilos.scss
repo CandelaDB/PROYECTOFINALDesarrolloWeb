@@ -72,7 +72,7 @@
     margin: 5px;
     padding: 15px;
     color: $color-crema;
-    background-color:$color-verde;
+    background-color:$color-gris;
     border-radius: 5px;
 }
 .consultas{
@@ -145,4 +145,28 @@
 .cardServ:hover{
         transform: scale(0.9);
 }
-
+.miH2{
+    color: $color-verde;
+}
+.imgGaleria{
+    width: 100%;
+    height: 700px;
+    border-radius: 15px;
+    transition: 0.3s; 
+    transform: all ease;
+}
+.imgGaleria:hover{
+    transform: scale(0.9);
+}
+.reserv{
+    text-align: justify;
+    font-family: $font-family;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    color: $color-gris;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
